@@ -1,0 +1,278 @@
+[
+    [
+        {
+            "code": "Backquote",
+            "first_symbol": "`",
+            "second_symbol": "~"
+        },
+        {
+            "code": "Digit1",
+            "first_symbol": "1",
+            "second_symbol": "!"
+        },
+        {
+            "code": "Digit2",
+            "first_symbol": "2",
+            "second_symbol": "@"
+        },
+        {
+            "code": "Digit3",
+            "first_symbol": "3",
+            "second_symbol": "#"
+        },
+        {
+            "code": "Digit4",
+            "first_symbol": "4",
+            "second_symbol": "$"
+        },
+        {
+            "code": "Digit5",
+            "first_symbol": "5",
+            "second_symbol": "%"
+        },
+        {
+            "code": "Digit6",
+            "first_symbol": "6",
+            "second_symbol": ":"
+        },
+        {
+            "code": "Digit7",
+            "first_symbol": "7",
+            "second_symbol": "?"
+        },
+        {
+            "code": "Digit8",
+            "first_symbol": "8",
+            "second_symbol": "*"
+        },
+        {
+            "code": "Digit9",
+            "first_symbol": "9",
+            "second_symbol": "("
+        },
+        {
+            "code": "Digit0",
+            "first_symbol": "0",
+            "second_symbol": ")"
+        },
+        {
+            "code": "Minus",
+            "first_symbol": "-",
+            "second_symbol": "_"
+        },
+        {
+            "code": "Equal",
+            "first_symbol": "=",
+            "second_symbol": "+"
+        },
+        {
+            "code": "Backspace",
+            "first_symbol": "Backspace"
+        }
+    ], 
+    [
+        {
+            "code": "Tab",
+            "first_symbol": "Tab"
+        },
+        {
+            "code": "KeyQ",
+            "first_symbol": "Q"
+        },
+        {
+            "code": "KeyW",
+            "first_symbol": "W"
+        },
+        {
+            "code": "KeyE",
+            "first_symbol": "E"
+        },
+        {
+            "code": "KeyR",
+            "first_symbol": "R"
+        },
+        {
+            "code": "KeyT",
+            "first_symbol": "T"
+        },
+        {
+            "code": "KeyY",
+            "first_symbol": "Y"
+        },
+        {
+            "code": "KeyU",
+            "first_symbol": "U"
+        },
+        {
+            "code": "KeyI",
+            "first_symbol": "I"
+        },
+        {
+            "code": "KeyO",
+            "first_symbol": "O"
+        },
+        {
+            "code": "KeyP",
+            "first_symbol": "P"
+        },
+        {
+            "code": "BracketLeft",
+            "first_symbol": "["
+        },
+        {
+            "code": "BracketRight",
+            "first_symbol": "]"
+        },
+        {
+            "code": "Backslash",
+            "first_symbol": "\\",
+            "second_symbol": "/"
+        }
+    ],
+    [
+        {
+            "code": "CapsLock",
+            "first_symbol": "Caps Lock"
+        },
+        {
+            "code": "KeyA",
+            "first_symbol": "A"
+        },
+        {
+            "code": "KeyS",
+            "first_symbol": "S"
+        },
+        {
+            "code": "KeyD",
+            "first_symbol": "D"
+        },
+        {
+            "code": "KeyF",
+            "first_symbol": "F"
+        },
+        {
+            "code": "KeyG",
+            "first_symbol": "G"
+        },
+        {
+            "code": "KeyH",
+            "first_symbol": "H"
+        },
+        {
+            "code": "KeyJ",
+            "first_symbol": "J"
+        },
+        {
+            "code": "KeyK",
+            "first_symbol": "K"
+        },
+        {
+            "code": "KeyL",
+            "first_symbol": "L"
+        },
+        {
+            "code": "Semicolon",
+            "first_symbol": ";"
+        },
+        {
+            "code": "Quote",
+            "first_symbol": "Quote"
+        },
+        {
+            "code": "Enter",
+            "first_symbol": "Enter"
+        }
+    ], 
+    [
+        {
+            "code": "ShiftLeft",
+            "first_symbol": "Shift"
+        },
+        {
+            "code": "KeyZ",
+            "first_symbol": "Z"
+        },
+        {
+            "code": "KeyX",
+            "first_symbol": "X"
+        },
+        {
+            "code": "KeyC",
+            "first_symbol": "C"
+        },
+        {
+            "code": "KeyV",
+            "first_symbol": "V"
+        },
+        {
+            "code": "KeyB",
+            "first_symbol": "B"
+        },
+        {
+            "code": "KeyN",
+            "first_symbol": "N"
+        },
+        {
+            "code": "KeyM",
+            "first_symbol": "M"
+        },
+        {
+            "code": "Period",
+            "first_symbol": "."
+        },
+        {
+            "code": "Comma",
+            "first_symbol": ","
+        },       
+        {
+            "code": "Slash",
+            "first_symbol": "/"
+        },
+        {
+            "code": "ArrowUp",
+            "first_symbol": "▲"
+        },
+        {
+            "code": "ShiftRight",
+            "first_symbol": "Shift"
+        }
+    ],
+    [
+        {
+            "code": "ControlLeft",
+            "first_symbol": "Ctrl"
+        },
+        {
+            "code": "MetaLeft",
+            "first_symbol": "Win"
+        },
+        {
+            "code": "AltLeft",
+            "first_symbol": "Alt"
+        },
+        {
+            "code": "Space",
+            "first_symbol": "Space"
+        },
+        {
+            "code": "AltRight",
+            "first_symbol": "Alt"
+        },
+        {
+            "code": "ControlRight",
+            "first_symbol": "Ctrl"
+        },
+        {
+            "code": "ArrowLeft",
+            "first_symbol": "◀"
+        },
+        {
+            "code": "ArrowDown",
+            "first_symbol": "▼"
+        },
+        {
+            "code": "ArrowRight",
+            "first_symbol": "▶"
+        }
+    ]
+]
