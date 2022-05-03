@@ -22,11 +22,6 @@ module.exports = {
         loader: "html-loader",
       },
       {
-        test: /\.pug$/i,
-        loader: "pug-loader",
-        options: { pretty: true },
-      },
-      {
         test: /\.(sa|sc|c)ss$/i,
         use: [
           { loader: MiniCssExtractPlugin.loader },
