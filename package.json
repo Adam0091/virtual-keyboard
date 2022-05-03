@@ -1,24 +1,18 @@
 {
-  "name": "webpack-starter-kit",
+  "name": "virtual-keyboard",
   "version": "0.1.0",
-  "description": "A starter kit workflow using Webpack, PUG, SASS, PostCSS & Babel.",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
     "start": "webpack serve --mode development --open"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/erwcode/webpack-starter-kit.git"
-  },
+  "repository": "",
   "keywords": [],
-  "author": "ErwCode Technologies <contacto@erwcode.com>",
+  "author": "Chernobrovkin Andrey",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/erwcode/webpack-starter-kit/issues"
-  },
-  "homepage": "https://github.com/erwcode/webpack-starter-kit#readme",
+  "homepage": "",
   "devDependencies": {
     "@babel/core": "^7.15.8",
     "@babel/plugin-transform-runtime": "^7.15.8",
