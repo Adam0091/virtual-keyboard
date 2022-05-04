@@ -6,11 +6,12 @@ class KeyboardEvents {
   constructor() {
     this.caps = true;
     this.shift = false;
-    this.postion_caret;
+    this.ctrl = false;
+    this.alt = false;
   }
 
   handleEvent(event) {
-    const target = event.target;
+    const { target } = event;
 
     switch (event.type) {
       case "click":
@@ -22,7 +23,7 @@ class KeyboardEvents {
         break;
 
       case "keyup":
-        keyboardKeyUpEvent(event);
+        keyboardKeyUpEvent(event, this);
         break;
     }
   }

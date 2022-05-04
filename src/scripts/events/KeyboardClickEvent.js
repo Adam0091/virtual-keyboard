@@ -2,39 +2,35 @@ const keyboardClickEvent = (target, that) => {
   if (target.closest(".keyboard__key")) {
     const textarea = document.querySelector("#keyboard_textarea");
     const code = target.getAttribute("data-code");
+    let symbol = target.getAttribute("data-first_symbol");
+    const second_symbol = target.getAttribute("data-second_symbol");
 
     if (code === "Backspace") {
-      textarea.innerHTML = textarea.innerHTML.slice(0, -1);
+      textarea.value = textarea.value.slice(0, -1);
       return;
     }
     if (code === "Space") {
-      textarea.innerHTML += " ";
+      textarea.value += " ";
       return;
     }
     if (code === "Tab") {
-      textarea.innerHTML += "\t";
+      textarea.value += "\t";
       return;
     }
     if (code === "Enter") {
-      textarea.innerHTML += "\n";
+      textarea.value += "\n";
       return;
     }
-    if (code === "ShiftLeft") {
+    if (code === "ShiftLeft" || code === "ShiftRight") {
+      that.shift = true;
       return;
     }
-    if (code === "ShiftRight") {
+    if (code === "AltLeft" || code === "AltRight") {
+      that.alt = true;
       return;
     }
-    if (code === "AltLeft") {
-      return;
-    }
-    if (code === "AltRight") {
-      return;
-    }
-    if (code === "ControlLeft") {
-      return;
-    }
-    if (code === "ControlRight") {
+    if (code === "ControlLeft" || code === "ControlRight") {
+      that.ctrl = true;
       return;
     }
     if (code === "MetaLeft") {
@@ -58,7 +54,12 @@ const keyboardClickEvent = (target, that) => {
       return;
     }
 
-    textarea.innerHTML += target.dataset.first_symbol;
+    if (that.shift) {
+      if (second_symbol) symbol = second_symbol;
+      else symbol = that.caps ? symbol.toLowerCase() : symbol.toUpperCase();
+    }
+
+    textarea.value += symbol;
   }
 };
 

@@ -2,8 +2,13 @@
     [
         {
             "code": "Backquote",
-            "first_symbol": "`",
-            "second_symbol": "~"
+            "ENG": {
+                "first_symbol": "`",
+                "second_symbol": "~"
+            },
+            "RU": {
+                "first_symbol": "ё"
+            }
         },
         {
             "code": "Digit1",
@@ -13,17 +18,33 @@
         {
             "code": "Digit2",
             "first_symbol": "2",
-            "second_symbol": "@"
+            "ENG": {
+                "second_symbol": "@"
+            },
+            "RU": {
+                "second_symbol": "\""
+            }
+            
         },
         {
             "code": "Digit3",
             "first_symbol": "3",
-            "second_symbol": "#"
+            "ENG": {
+                "second_symbol": "#"
+            },
+            "RU": {
+                "second_symbol": "№"
+            }
         },
         {
             "code": "Digit4",
             "first_symbol": "4",
-            "second_symbol": "$"
+            "ENG": {
+                "second_symbol": "$"
+            },
+            "RU": {
+                "second_symbol": ";"
+            }
         },
         {
             "code": "Digit5",
@@ -33,12 +54,22 @@
         {
             "code": "Digit6",
             "first_symbol": "6",
-            "second_symbol": ":"
+            "ENG": {
+                "second_symbol": "^"
+            },
+            "RU": {
+                "second_symbol": ":"
+            }
         },
         {
             "code": "Digit7",
             "first_symbol": "7",
-            "second_symbol": "?"
+            "ENG": {
+                "second_symbol": "&"
+            },
+            "RU": {
+                "second_symbol": "?"
+            }
         },
         {
             "code": "Digit8",
@@ -77,51 +108,112 @@
         },
         {
             "code": "KeyQ",
-            "first_symbol": "Q"
+            "ENG": {
+                "first_symbol": "Q"
+            },
+            "RU": {
+                "first_symbol": "Й"
+            }
+
         },
         {
             "code": "KeyW",
-            "first_symbol": "W"
+            "ENG": {
+                "first_symbol": "W"
+            },
+            "RU": {
+                "first_symbol": "Ц"
+            }
         },
         {
             "code": "KeyE",
-            "first_symbol": "E"
+            "ENG": {
+                "first_symbol": "E"
+            },
+            "RU": {
+                "first_symbol": "У"
+            }
         },
         {
             "code": "KeyR",
-            "first_symbol": "R"
+            "ENG": {
+                "first_symbol": "R"
+            },
+            "RU": {
+                "first_symbol": "К"
+            }
         },
         {
             "code": "KeyT",
-            "first_symbol": "T"
+            "ENG": {
+                "first_symbol": "T"
+            },
+            "RU": {
+                "first_symbol": "Е"
+            }
         },
         {
             "code": "KeyY",
-            "first_symbol": "Y"
+            "ENG": {
+                "first_symbol": "Y"
+            },
+            "RU": {
+                "first_symbol": "Н"
+            }
         },
         {
             "code": "KeyU",
-            "first_symbol": "U"
+            "ENG": {
+                "first_symbol": "U"
+            },
+            "RU": {
+                "first_symbol": "Г"
+            }
         },
         {
             "code": "KeyI",
-            "first_symbol": "I"
+            "ENG": {
+                "first_symbol": "I"
+            },
+            "RU": {
+                "first_symbol": "Ш"
+            }
         },
         {
             "code": "KeyO",
-            "first_symbol": "O"
+            "ENG": {
+                "first_symbol": "O"
+            },
+            "RU": {
+                "first_symbol": "Щ"
+            }
         },
         {
             "code": "KeyP",
-            "first_symbol": "P"
+            "ENG": {
+                "first_symbol": "P"
+            },
+            "RU": {
+                "first_symbol": "З"
+            }
         },
         {
             "code": "BracketLeft",
-            "first_symbol": "["
+            "ENG": {
+                "first_symbol": "["
+            },
+            "RU": {
+                "first_symbol": "Х"
+            }
         },
         {
             "code": "BracketRight",
-            "first_symbol": "]"
+            "ENG": {
+                "first_symbol": "]"
+            },
+            "RU": {
+                "first_symbol": "Ъ"
+            }
         },
         {
             "code": "Backslash",
@@ -136,47 +228,102 @@
         },
         {
             "code": "KeyA",
-            "first_symbol": "A"
+            "ENG": {
+                "first_symbol": "A"
+            },
+            "RU": {
+                "first_symbol": "Ф"
+            }
         },
         {
             "code": "KeyS",
-            "first_symbol": "S"
+            "ENG": {
+                "first_symbol": "S"
+            },
+            "RU": {
+                "first_symbol": "Ы"
+            }
         },
         {
             "code": "KeyD",
-            "first_symbol": "D"
+            "ENG": {
+                "first_symbol": "D"
+            },
+            "RU": {
+                "first_symbol": "В"
+            }
         },
         {
             "code": "KeyF",
-            "first_symbol": "F"
+            "ENG": {
+                "first_symbol": "F"
+            },
+            "RU": {
+                "first_symbol": "А"
+            }
         },
         {
             "code": "KeyG",
-            "first_symbol": "G"
+            "ENG": {
+                "first_symbol": "G"
+            },
+            "RU": {
+                "first_symbol": "П"
+            }
         },
         {
             "code": "KeyH",
-            "first_symbol": "H"
+            "ENG": {
+                "first_symbol": "H"
+            },
+            "RU": {
+                "first_symbol": "Р"
+            }
         },
         {
             "code": "KeyJ",
-            "first_symbol": "J"
+            "ENG": {
+                "first_symbol": "J"
+            },
+            "RU": {
+                "first_symbol": "О"
+            }
         },
         {
             "code": "KeyK",
-            "first_symbol": "K"
+            "ENG": {
+                "first_symbol": "K"
+            },
+            "RU": {
+                "first_symbol": "Л"
+            }
         },
         {
             "code": "KeyL",
-            "first_symbol": "L"
+            "ENG": {
+                "first_symbol": "L"
+            },
+            "RU": {
+                "first_symbol": "Д"
+            }
         },
         {
             "code": "Semicolon",
-            "first_symbol": ";"
+            "ENG": {
+                "first_symbol": ":"
+            },
+            "RU": {
+                "first_symbol": "Ж"
+            }
         },
         {
             "code": "Quote",
-            "first_symbol": "Quote"
+            "ENG": {
+                "first_symbol": "'"
+            },
+            "RU": {
+                "first_symbol": "Э"
+            }
         },
         {
             "code": "Enter",
@@ -190,43 +337,93 @@
         },
         {
             "code": "KeyZ",
-            "first_symbol": "Z"
+            "ENG": {
+                "first_symbol": "Z"
+            },
+            "RU": {
+                "first_symbol": "Я"
+            }
         },
         {
             "code": "KeyX",
-            "first_symbol": "X"
+            "ENG": {
+                "first_symbol": "X"
+            },
+            "RU": {
+                "first_symbol": "Ч"
+            }
         },
         {
             "code": "KeyC",
-            "first_symbol": "C"
+            "ENG": {
+                "first_symbol": "C"
+            },
+            "RU": {
+                "first_symbol": "С"
+            }
         },
         {
             "code": "KeyV",
-            "first_symbol": "V"
+            "ENG": {
+                "first_symbol": "V"
+            },
+            "RU": {
+                "first_symbol": "М"
+            }
         },
         {
             "code": "KeyB",
-            "first_symbol": "B"
+            "ENG": {
+                "first_symbol": "B"
+            },
+            "RU": {
+                "first_symbol": "И"
+            }
         },
         {
             "code": "KeyN",
-            "first_symbol": "N"
+            "ENG": {
+                "first_symbol": "N"
+            },
+            "RU": {
+                "first_symbol": "Т"
+            }
         },
         {
             "code": "KeyM",
-            "first_symbol": "M"
+            "ENG": {
+                "first_symbol": "M"
+            },
+            "RU": {
+                "first_symbol": "Ь"
+            }
         },
         {
             "code": "Period",
-            "first_symbol": "."
+            "ENG": {
+                "first_symbol": "."
+            },
+            "RU": {
+                "first_symbol": "Ю"
+            }
         },
         {
             "code": "Comma",
-            "first_symbol": ","
+            "ENG": {
+                "first_symbol": ","
+            },
+            "RU": {
+                "first_symbol": "Б"
+            }
         },       
         {
             "code": "Slash",
-            "first_symbol": "/"
+            "ENG": {
+                "first_symbol": "/"
+            },
+            "RU": {
+                "first_symbol": "."
+            }
         },
         {
             "code": "ArrowUp",
