@@ -2,16 +2,6 @@ import keyboardClickEvent from "./KeyboardClickEvent";
 import keyboardKeyDownEvent from "./KeyboardKeyDownEvent";
 import keyboardKeyUpEvent from "./KeyboardKeyUpEvent";
 
-function animationCaret() {
-  const textarea = document.querySelector("#keyboard_textarea");
-  const positionCaret = textarea.value.indexOf("|");
-  if (positionCaret !== -1) {
-    textarea.innerHTML = `${textarea.value.substr(
-      0,
-      positionCaret - 1,
-    )}AnimationCaret${textarea.value.substr(positionCaret)}`;
-  }
-}
 function addMouseDownEvent(that) {
   const keys = document.querySelectorAll(".keyboard__key");
   for (let i = 0; i < keys.length; i += 1) {
@@ -48,11 +38,11 @@ class KeyboardEvents {
 
   handleEvent(event) {
     const { target } = event;
-    this.caret = target.selectionStart || this.caret;
+    if (typeof target.selectionStart === "number") {
+      this.caret = target.selectionStart;
+    }
 
     changePostionCaret(this);
-    animationCaret();
-
     switch (event.type) {
       case "click":
         keyboardClickEvent(target, this);
