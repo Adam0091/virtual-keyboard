@@ -31,7 +31,7 @@ const keyboardKey = (key, index, lang = "ENG") => {
       <div class="${classKey}"
           data-code=${code}
           data-first_symbol="${firstSymbol}"
-          ${secondSymbol ? `data-second_symbol="${secondSymbol}"` : ""}
+          ${secondSymbol ? `data-second_symbol='${secondSymbol}'` : ""}
           ${anotherFirst ? `data-another_first="${anotherFirst}"` : ""}
           ${anotherSecond ? `data-another_second='${anotherSecond}'` : ""}>
         ${symbol} 

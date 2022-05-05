@@ -44,7 +44,7 @@ const keyboardKeysChange = (caps) => {
     if (symbol === "Space") symbol = "";
 
     key.dataset.first_symbol = anotherFirst || firstSymbol;
-    if (secondSymbol) key.dataset.second_symbol = anotherSecond;
+    key.dataset.second_symbol = anotherSecond;
     key.dataset.another_first = firstSymbol;
     key.dataset.another_second = secondSymbol;
     key.innerHTML = symbol;
