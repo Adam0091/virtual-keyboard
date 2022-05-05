@@ -4,7 +4,8 @@ const keyboardKeyDownEvent = (event, that) => {
   const keys = document.querySelectorAll(".keyboard__key");
   const textarea = document.querySelector("#keyboard_textarea");
 
-  if (event.keyCode === 9 || event.keyCode === 8 || event.keyCode === 17) event.preventDefault();
+  if (event.keyCode === 9 || event.keyCode === 8 || event.keyCode === 17)
+    event.preventDefault();
 
   for (let i = 0; i < keys.length; i++) {
     const code = keys[i].getAttribute("data-code");
@@ -18,7 +19,14 @@ const keyboardKeyDownEvent = (event, that) => {
         symbol = " ";
       }
       if (code === "Backspace") {
-        textarea.value = textarea.value.slice(0, -1);
+        if (that.caret !== 0) {
+          textarea.value = textarea.value.replace("|", "");
+          textarea.value =
+            textarea.value.substr(0, that.caret - 1) +
+            "|" +
+            textarea.value.substr(that.caret);
+          that.caret--;
+        }
         return;
       }
       if (code === "Tab") {
@@ -27,7 +35,7 @@ const keyboardKeyDownEvent = (event, that) => {
       if (code === "Enter") {
         symbol = "\n";
       }
-      if (code === "ShiftLeft" || code === "ShiftRight") {
+      if (code === "ShiftRight" || code === "ShiftLeft") {
         that.shift = true;
         symbol = "";
       }
@@ -66,7 +74,13 @@ const keyboardKeyDownEvent = (event, that) => {
       }
       if (that.ctrl && that.alt) keyboardKeysChange(that.caps);
 
-      textarea.value += symbol;
+      textarea.value = textarea.value.replace("|", "");
+      textarea.value =
+        textarea.value.substr(0, that.caret) +
+        symbol +
+        "|" +
+        textarea.value.substr(that.caret);
+      that.caret++;
     }
   }
 };

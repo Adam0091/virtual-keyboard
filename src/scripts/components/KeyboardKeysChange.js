@@ -1,10 +1,16 @@
 const keyboardKeysChange = (caps) => {
   const keys = document.querySelectorAll(".keyboard__key");
+
   for (const key of keys) {
-    let first_symbol = key.getAttribute("data-first_symbol");
-    let second_symbol = key.getAttribute("data-second_symbol");
-    let another_first = key.getAttribute("data-another_first");
-    let another_second = key.getAttribute("data-another_second");
+    const LANG = localStorage.getItem("lang");
+    const AnotherLANG = LANG === "RU" ? "ENG" : "RU";
+    localStorage.setItem("lang", AnotherLANG);
+
+    let { first_symbol, second_symbol, another_first, another_second } =
+      key.dataset;
+    // let second_symbol = key.getAttribute("data-second_symbol");
+    // let another_first = key.getAttribute("data-another_first");
+    // let another_second = key.getAttribute("data-another_second");
 
     first_symbol = first_symbol || "";
     second_symbol = second_symbol || "";

@@ -1,15 +1,18 @@
 import keyboardKey from "./KeyboardKey";
-const keyboard_data = require("../data/lang_ENG.json");
+
+const keyboardData = require("../data/lang_ENG.json");
 
 const keyboardKeys = () => {
+  if (!localStorage.getItem("lang")) localStorage.setItem("lang", "ENG");
+  const LANG = localStorage.getItem("lang");
   const keyboardKeysElement = document.createElement("div");
 
-  keyboard_data.forEach((row, indexRow) => {
+  keyboardData.forEach((row, indexRow) => {
     const keyboardKeysRow = document.createElement("div");
     keyboardKeysRow.classList.add("keyboard__row");
 
     row.forEach((key) => {
-      keyboardKeysRow.innerHTML += keyboardKey(key, indexRow);
+      keyboardKeysRow.innerHTML += keyboardKey(key, indexRow, LANG);
     });
 
     keyboardKeysElement.append(keyboardKeysRow);

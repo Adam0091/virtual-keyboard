@@ -6,31 +6,33 @@ const keyboardClickEvent = (target, that) => {
     const second_symbol = target.getAttribute("data-second_symbol");
 
     if (code === "Backspace") {
-      textarea.value = textarea.value.slice(0, -1);
+      textarea.value = textarea.value.replace("|", "");
+      textarea.value =
+        textarea.value.substr(0, that.caret - 1) +
+        "|" +
+        textarea.value.substr(that.caret);
+      that.caret--;
       return;
     }
     if (code === "Space") {
-      textarea.value += " ";
-      return;
+      symbol += " ";
     }
     if (code === "Tab") {
-      textarea.value += "\t";
-      return;
+      Symbol = "\t";
     }
     if (code === "Enter") {
-      textarea.value += "\n";
-      return;
+      symbol = "\n";
     }
     if (code === "ShiftLeft" || code === "ShiftRight") {
-      that.shift = true;
+      that.shift = false;
       return;
     }
     if (code === "AltLeft" || code === "AltRight") {
-      that.alt = true;
+      that.alt = false;
       return;
     }
     if (code === "ControlLeft" || code === "ControlRight") {
-      that.ctrl = true;
+      that.ctrl = false;
       return;
     }
     if (code === "MetaLeft") {
@@ -59,7 +61,13 @@ const keyboardClickEvent = (target, that) => {
       else symbol = that.caps ? symbol.toLowerCase() : symbol.toUpperCase();
     }
 
-    textarea.value += symbol;
+    textarea.value = textarea.value.replace("|", "");
+    textarea.value =
+      textarea.value.substr(0, that.caret) +
+      symbol +
+      "|" +
+      textarea.value.substr(that.caret);
+    that.caret++;
   }
 };
 

@@ -11,7 +11,7 @@ root.innerHTML = `
             <h1 class="keyboard__title">Virtual keyboard</h1>
             <h2 class="keyboard__subtitle">Made on Windows</h2>
             <h2 class="keyboard__subtitle">Combination change keyboard layout: CTRL + ALT</h2>
-            <textarea class="keyboard__textarea" name="" id="keyboard_textarea"></textarea>
+            <textarea class="keyboard__textarea" name="" id="keyboard_textarea" readonly></textarea>
             <div class="keyboard__keys">${KeyboardKeys().innerHTML}</div>
         </div>
     </div>
