@@ -5,9 +5,7 @@ const keyboardKey = (key, index, lang = "ENG") => {
 
   const secondSymbol = key[lang]?.second_symbol
     ? key[lang].second_symbol
-    : key.second_symbol
-      ? key.second_symbol
-      : "";
+    : key.second_symbol || "";
 
   const anotherLANG = lang === "RU" ? "ENG" : "RU";
   const anotherFirst = key[anotherLANG]?.first_symbol
@@ -15,9 +13,7 @@ const keyboardKey = (key, index, lang = "ENG") => {
     : key.first_symbol;
   const anotherSecond = key[anotherLANG]?.second_symbol
     ? key[anotherLANG].second_symbol
-    : key.second_symbol
-      ? key.second_symbol
-      : "";
+    : key.second_symbol || "";
 
   const { code } = key;
   let classKey = "keyboard__key";

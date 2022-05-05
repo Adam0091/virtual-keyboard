@@ -3,22 +3,22 @@ const keyboardClickEvent = (target, that) => {
     const textarea = document.querySelector("#keyboard_textarea");
     const code = target.getAttribute("data-code");
     let symbol = target.getAttribute("data-first_symbol");
-    const second_symbol = target.getAttribute("data-second_symbol");
+    const secondSymbol = target.getAttribute("data-second_symbol");
 
     if (code === "Backspace") {
       textarea.value = textarea.value.replace("|", "");
-      textarea.value =
-        textarea.value.substr(0, that.caret - 1) +
-        "|" +
-        textarea.value.substr(that.caret);
-      that.caret--;
+      textarea.value = `${textarea.value.substr(
+        0,
+        that.caret - 1,
+      )}|${textarea.value.substr(that.caret)}`;
+      that.caret -= 1;
       return;
     }
     if (code === "Space") {
       symbol += " ";
     }
     if (code === "Tab") {
-      Symbol = "\t";
+      symbol = "\t";
     }
     if (code === "Enter") {
       symbol = "\n";
@@ -41,7 +41,7 @@ const keyboardClickEvent = (target, that) => {
     if (code === "CapsLock") {
       const keys = document.querySelectorAll(".keyboard__key");
 
-      for (let i = 0; i < keys.length; i++) {
+      for (let i = 0; i < keys.length; i += 1) {
         if (keys[i].innerText.length === 1) {
           keys[i].innerText = that.caps
             ? String(keys[i].innerText).toLowerCase()
@@ -57,17 +57,15 @@ const keyboardClickEvent = (target, that) => {
     }
 
     if (that.shift) {
-      if (second_symbol) symbol = second_symbol;
+      if (secondSymbol) symbol = secondSymbol;
       else symbol = that.caps ? symbol.toLowerCase() : symbol.toUpperCase();
     }
 
     textarea.value = textarea.value.replace("|", "");
-    textarea.value =
-      textarea.value.substr(0, that.caret) +
-      symbol +
-      "|" +
-      textarea.value.substr(that.caret);
-    that.caret++;
+    textarea.value = `${
+      textarea.value.substr(0, that.caret) + symbol
+    }|${textarea.value.substr(that.caret)}`;
+    that.caret += 1;
   }
 };
 
