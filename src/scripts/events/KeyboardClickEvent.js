@@ -15,7 +15,7 @@ const keyboardClickEvent = (target, that) => {
       return;
     }
     if (code === "Space") {
-      symbol += " ";
+      symbol = " ";
     }
     if (code === "Tab") {
       symbol = "\t";
