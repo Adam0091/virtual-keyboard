@@ -1,0 +1,475 @@
+[
+    [
+        {
+            "code": "Backquote",
+            "ENG": {
+                "first_symbol": "`",
+                "second_symbol": "~"
+            },
+            "RU": {
+                "first_symbol": "Ё"
+            }
+        },
+        {
+            "code": "Digit1",
+            "first_symbol": "1",
+            "second_symbol": "!"
+        },
+        {
+            "code": "Digit2",
+            "first_symbol": "2",
+            "ENG": {
+                "second_symbol": "@"
+            },
+            "RU": {
+                "second_symbol": "\""
+            }
+            
+        },
+        {
+            "code": "Digit3",
+            "first_symbol": "3",
+            "ENG": {
+                "second_symbol": "#"
+            },
+            "RU": {
+                "second_symbol": "№"
+            }
+        },
+        {
+            "code": "Digit4",
+            "first_symbol": "4",
+            "ENG": {
+                "second_symbol": "$"
+            },
+            "RU": {
+                "second_symbol": ";"
+            }
+        },
+        {
+            "code": "Digit5",
+            "first_symbol": "5",
+            "second_symbol": "%"
+        },
+        {
+            "code": "Digit6",
+            "first_symbol": "6",
+            "ENG": {
+                "second_symbol": "^"
+            },
+            "RU": {
+                "second_symbol": ":"
+            }
+        },
+        {
+            "code": "Digit7",
+            "first_symbol": "7",
+            "ENG": {
+                "second_symbol": "&"
+            },
+            "RU": {
+                "second_symbol": "?"
+            }
+        },
+        {
+            "code": "Digit8",
+            "first_symbol": "8",
+            "second_symbol": "*"
+        },
+        {
+            "code": "Digit9",
+            "first_symbol": "9",
+            "second_symbol": "("
+        },
+        {
+            "code": "Digit0",
+            "first_symbol": "0",
+            "second_symbol": ")"
+        },
+        {
+            "code": "Minus",
+            "first_symbol": "-",
+            "second_symbol": "_"
+        },
+        {
+            "code": "Equal",
+            "first_symbol": "=",
+            "second_symbol": "+"
+        },
+        {
+            "code": "Backspace",
+            "first_symbol": "Backspace"
+        }
+    ], 
+    [
+        {
+            "code": "Tab",
+            "first_symbol": "Tab"
+        },
+        {
+            "code": "KeyQ",
+            "ENG": {
+                "first_symbol": "Q"
+            },
+            "RU": {
+                "first_symbol": "Й"
+            }
+
+        },
+        {
+            "code": "KeyW",
+            "ENG": {
+                "first_symbol": "W"
+            },
+            "RU": {
+                "first_symbol": "Ц"
+            }
+        },
+        {
+            "code": "KeyE",
+            "ENG": {
+                "first_symbol": "E"
+            },
+            "RU": {
+                "first_symbol": "У"
+            }
+        },
+        {
+            "code": "KeyR",
+            "ENG": {
+                "first_symbol": "R"
+            },
+            "RU": {
+                "first_symbol": "К"
+            }
+        },
+        {
+            "code": "KeyT",
+            "ENG": {
+                "first_symbol": "T"
+            },
+            "RU": {
+                "first_symbol": "Е"
+            }
+        },
+        {
+            "code": "KeyY",
+            "ENG": {
+                "first_symbol": "Y"
+            },
+            "RU": {
+                "first_symbol": "Н"
+            }
+        },
+        {
+            "code": "KeyU",
+            "ENG": {
+                "first_symbol": "U"
+            },
+            "RU": {
+                "first_symbol": "Г"
+            }
+        },
+        {
+            "code": "KeyI",
+            "ENG": {
+                "first_symbol": "I"
+            },
+            "RU": {
+                "first_symbol": "Ш"
+            }
+        },
+        {
+            "code": "KeyO",
+            "ENG": {
+                "first_symbol": "O"
+            },
+            "RU": {
+                "first_symbol": "Щ"
+            }
+        },
+        {
+            "code": "KeyP",
+            "ENG": {
+                "first_symbol": "P"
+            },
+            "RU": {
+                "first_symbol": "З"
+            }
+        },
+        {
+            "code": "BracketLeft",
+            "ENG": {
+                "first_symbol": "["
+            },
+            "RU": {
+                "first_symbol": "Х"
+            }
+        },
+        {
+            "code": "BracketRight",
+            "ENG": {
+                "first_symbol": "]"
+            },
+            "RU": {
+                "first_symbol": "Ъ"
+            }
+        },
+        {
+            "code": "Backslash",
+            "first_symbol": "\\",
+            "second_symbol": "/"
+        }
+    ],
+    [
+        {
+            "code": "CapsLock",
+            "first_symbol": "Caps Lock"
+        },
+        {
+            "code": "KeyA",
+            "ENG": {
+                "first_symbol": "A"
+            },
+            "RU": {
+                "first_symbol": "Ф"
+            }
+        },
+        {
+            "code": "KeyS",
+            "ENG": {
+                "first_symbol": "S"
+            },
+            "RU": {
+                "first_symbol": "Ы"
+            }
+        },
+        {
+            "code": "KeyD",
+            "ENG": {
+                "first_symbol": "D"
+            },
+            "RU": {
+                "first_symbol": "В"
+            }
+        },
+        {
+            "code": "KeyF",
+            "ENG": {
+                "first_symbol": "F"
+            },
+            "RU": {
+                "first_symbol": "А"
+            }
+        },
+        {
+            "code": "KeyG",
+            "ENG": {
+                "first_symbol": "G"
+            },
+            "RU": {
+                "first_symbol": "П"
+            }
+        },
+        {
+            "code": "KeyH",
+            "ENG": {
+                "first_symbol": "H"
+            },
+            "RU": {
+                "first_symbol": "Р"
+            }
+        },
+        {
+            "code": "KeyJ",
+            "ENG": {
+                "first_symbol": "J"
+            },
+            "RU": {
+                "first_symbol": "О"
+            }
+        },
+        {
+            "code": "KeyK",
+            "ENG": {
+                "first_symbol": "K"
+            },
+            "RU": {
+                "first_symbol": "Л"
+            }
+        },
+        {
+            "code": "KeyL",
+            "ENG": {
+                "first_symbol": "L"
+            },
+            "RU": {
+                "first_symbol": "Д"
+            }
+        },
+        {
+            "code": "Semicolon",
+            "ENG": {
+                "first_symbol": ":"
+            },
+            "RU": {
+                "first_symbol": "Ж"
+            }
+        },
+        {
+            "code": "Quote",
+            "ENG": {
+                "first_symbol": "'"
+            },
+            "RU": {
+                "first_symbol": "Э"
+            }
+        },
+        {
+            "code": "Enter",
+            "first_symbol": "Enter"
+        }
+    ], 
+    [
+        {
+            "code": "ShiftLeft",
+            "first_symbol": "Shift"
+        },
+        {
+            "code": "KeyZ",
+            "ENG": {
+                "first_symbol": "Z"
+            },
+            "RU": {
+                "first_symbol": "Я"
+            }
+        },
+        {
+            "code": "KeyX",
+            "ENG": {
+                "first_symbol": "X"
+            },
+            "RU": {
+                "first_symbol": "Ч"
+            }
+        },
+        {
+            "code": "KeyC",
+            "ENG": {
+                "first_symbol": "C"
+            },
+            "RU": {
+                "first_symbol": "С"
+            }
+        },
+        {
+            "code": "KeyV",
+            "ENG": {
+                "first_symbol": "V"
+            },
+            "RU": {
+                "first_symbol": "М"
+            }
+        },
+        {
+            "code": "KeyB",
+            "ENG": {
+                "first_symbol": "B"
+            },
+            "RU": {
+                "first_symbol": "И"
+            }
+        },
+        {
+            "code": "KeyN",
+            "ENG": {
+                "first_symbol": "N"
+            },
+            "RU": {
+                "first_symbol": "Т"
+            }
+        },
+        {
+            "code": "KeyM",
+            "ENG": {
+                "first_symbol": "M"
+            },
+            "RU": {
+                "first_symbol": "Ь"
+            }
+        },
+        {
+            "code": "Period",
+            "ENG": {
+                "first_symbol": "."
+            },
+            "RU": {
+                "first_symbol": "Ю"
+            }
+        },
+        {
+            "code": "Comma",
+            "ENG": {
+                "first_symbol": ","
+            },
+            "RU": {
+                "first_symbol": "Б"
+            }
+        },       
+        {
+            "code": "Slash",
+            "ENG": {
+                "first_symbol": "/"
+            },
+            "RU": {
+                "first_symbol": "."
+            }
+        },
+        {
+            "code": "ArrowUp",
+            "first_symbol": "▲"
+        },
+        {
+            "code": "ShiftRight",
+            "first_symbol": "Shift"
+        }
+    ],
+    [
+        {
+            "code": "ControlLeft",
+            "first_symbol": "Ctrl"
+        },
+        {
+            "code": "MetaLeft",
+            "first_symbol": "Win"
+        },
+        {
+            "code": "AltLeft",
+            "first_symbol": "Alt"
+        },
+        {
+            "code": "Space",
+            "first_symbol": "Space"
+        },
+        {
+            "code": "AltRight",
+            "first_symbol": "Alt"
+        },
+        {
+            "code": "ControlRight",
+            "first_symbol": "Ctrl"
+        },
+        {
+            "code": "ArrowLeft",
+            "first_symbol": "◀"
+        },
+        {
+            "code": "ArrowDown",
+            "first_symbol": "▼"
+        },
+        {
+            "code": "ArrowRight",
+            "first_symbol": "▶"
+        }
+    ]
+]
